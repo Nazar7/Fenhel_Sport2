@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Museo-Thin";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl.otf");
+    }
+
+        @font-face {
+    font-family: "Museo-Light";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+    }
+
+            @font-face {
+    font-family: "Museo-Regular";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Bold";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Black";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+    }
+
+.btn__primary, .btn__primary:active, .btn__primary:visited, .btn__primary:focus  {
+    background-color: white !important; 
+    border-color: none !important;
+    box-shadow: none !important;
+    font-family: Museo-Regular !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    font-weight: normal !important;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+    text-decoration: none !important;
+        &:hover{
+            font-weight: bold !important;
+        }
+}

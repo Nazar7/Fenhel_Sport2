@@ -1,0 +1,73 @@
+@font-face {
+          font-family: "Museo-Thin";
+          src: url("../fonts/museosanscyrl/MuseoSansCyrl.otf");
+          }
+      
+              @font-face {
+          font-family: "Museo-Light";
+          src: url("../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+          }
+      
+                  @font-face {
+          font-family: "Museo-Regular";
+          src: url("../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+          }
+      
+                      @font-face {
+          font-family: "Museo-Bold";
+          src: url("../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+          }
+      
+                      @font-face {
+          font-family: "Museo-Black";
+          src: url("../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+          }
+
+
+.button__submit{
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #834E98;
+    border-radius: 20px;
+    width: 261px;
+    height: 60px;
+    font-family: Museo-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.3s;
+    border: none;
+    &:hover { 
+        background: #4F2162; 
+        color: #ffff;
+    
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 501px) {
+
+
+    .button__submit{
+        // position: absolute;
+        // top: 540px;
+        // left: 150px;
+        width: 183px;
+        height: 42px;
+        font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+       
+        &:hover { 
+            background: #4F2162; 
+            color: #ffff;
+        
+        }
+    
+    }
+
+}

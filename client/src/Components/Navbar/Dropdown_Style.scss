@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Museo-Thin";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl.otf");
+    }
+
+        @font-face {
+    font-family: "Museo-Light";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+    }
+
+            @font-face {
+    font-family: "Museo-Regular";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Bold";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Black";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+    }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// .navbar{
+//   margin:0px;
+//   background-color: #834E98;
+//   height: 117px;
+//   display: flex;
+//   padding: 0; 
+//   background-image: url('./img/LinesNav.svg');
+//   background-repeat: no-repeat;
+// }
+
+// .nav__logo{
+//     width: 200px;
+// }
+
+// .nav__menu{
+//     width: 100%;
+//     display: inline-flex;
+//     align-items: center;
+// }
+
+// .navbar-nav{
+//     width: 100%;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+// .menu__link{
+//     text-align: center;
+// margin: 0;
+// font-family: Museo-Light;
+// font-style: normal;
+// font-weight: bold;
+// font-size: 14px;
+// line-height: 17px;
+// text-transform: uppercase;
+// color: #FFFFFF;
+//     &.active{
+//         font-family: Museo-Bold;
+//         font-size: 17px;
+//     }
+// }
+
+
+.dropdawn-menu{
+    background-image: url('./img/logo-mobile.svg');
+    background-repeat: no-repeat;
+    background-size:50%;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    width: 100%;
+    height: 320px;
+    background-color: #834E98;
+    z-index: 100;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
+    .nav__menu,
+    .nav__logo{
+       display: none;
+  }
+
+  }
+
+.logo__title{
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
+    img{
+      display: inline-flex;
+      justify-content: flex-end;
+      fill: #834E98;
+      
+  }
+
+
+  .logo__title{
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+  }
+
+  .logo__nav{
+    margin: 0 auto;
+  }
+

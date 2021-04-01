@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Museo-Thin";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl.otf");
+    }
+
+        @font-face {
+    font-family: "Museo-Light";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+    }
+
+            @font-face {
+    font-family: "Museo-Regular";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Bold";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Black";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+    }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+  margin:0px;
+  background-color: #834E98;
+  height: 117px;
+  display: flex;
+  padding: 0; 
+  background-image: url('./img/LinesNav.svg');
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
+    .navbar{
+        height: 50px;
+        background-image: none;
+  }
+  .container__block{
+      margin-right: 20px;
+
+  }
+  }
+
+
+.nav__logo{
+    width: 200px;
+}
+
+.nav__menu{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    
+    .nav__menu,
+    .nav__logo{
+       display: none;
+  }
+
+  }
+
+.navbar-nav{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__link{
+    text-align: center;
+margin: 0;
+font-family: Museo-Light;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+color: #FFFFFF;
+    &.active{
+        font-family: Museo-Bold;
+        font-size: 17px;
+        color: #FFFFFF;
+    }
+    &:hover{
+        color: #FFFFFF;
+    }
+}
+
+.show{
+    display: none;
+    width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
+    .show,
+    .navbar{
+       display: inline-flex;
+    //    background-color: #fff;
+  }
+
+  }
+
+

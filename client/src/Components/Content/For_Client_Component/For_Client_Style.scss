@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Museo-Thin";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl.otf");
+    }
+
+        @font-face {
+    font-family: "Museo-Light";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+    }
+
+            @font-face {
+    font-family: "Museo-Regular";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Bold";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Black";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+	}
+	
+	.container{
+		max-width: 1138px;
+		height: 100%;
+		margin: 0 auto;
+
+	}
+
+	.description__forclient{
+		display: block;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.forclient__title{
+		font-family: Museo-Black;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 43px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #000000;
+	}
+
+	.description__forclient p{
+		text-align: center;
+	}
+
+	.description__title{
+		width: 100%;
+		display: inline-block;
+
+		
+	}
+
+	.forclient__list{
+		display: inline-flex;
+		flex-wrap: 	wrap;	
+		width: 	100%;
+		list-style: none;
+		justify-content: space-between;
+		align-items: center;	
+		padding: 0;	
+	}
+
+	.forclient__item{
+		display: flex;
+		width: 	45%;
+		align-items: center;	
+		text-align: left;
+		margin-bottom: 	50px;
+		font-family: Museo-Light;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 22px;		
+}
+
+@media (min-width: 320px) and (max-width: 767px) { 
+	.forclient__item{
+		width: 300px;
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.forclient__list{
+		justify-content: center;
+	}
+	.description__title{
+		font-size: 24px;
+		line-height: 29px;
+	}
+	.forclient__title{
+		font-size: 24px;
+		line-height: 29px;
+	}
+}
+
+
+.forclient__item img {
+	margin-right: 	20px;
+	align-items: center;	
+}
+
+.ErrowButton__up{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 1210px;
+	top: 1805px;
+	}
+
+	section,
+	footer{
+		width: 100%;
+		background: #834E98; 
+	}

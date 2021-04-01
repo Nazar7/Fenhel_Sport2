@@ -1,0 +1,109 @@
+
+	@font-face {
+        font-family: "Museo Sans Cyrl Thin";
+        src: url("../../fonts/museosanscyrl/MuseoSansCyrl.otf");
+        }
+    
+            @font-face {
+        font-family: "Museo Sans Cyrl Light";
+        src: url("../../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+        }
+    
+                @font-face {
+        font-family: "Museo Sans Cyrl Regular";
+        src: url("../../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+        }
+    
+                    @font-face {
+        font-family: "Museo Sans Cyrl Bold";
+        src: url("../../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+        }
+    
+                    @font-face {
+        font-family: "Museo Sans Cyrl Black";
+        src: url("../../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+        }
+
+.container{
+    max-width: 1138px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.stepsForOrder{
+	width: 100%;
+	min-height: 600px;
+	background-color: #834E98;
+}
+
+
+.orderInstruction__title{
+	display: inline-block;
+	width: 100%;
+	font-family: Museo Sans Cyrl Black;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-top: 47px;
+}
+
+.orderInstruction__list{
+	list-style: none;
+	width: 100%;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+}
+
+.orderInstruction__item{
+	width: 30%;
+	display: block;
+	text-align: center;
+}
+
+.orderInstruction__itemTitle{
+	font-family: Museo Sans Cyrl Light;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.orderInstruction__itemText{
+	font-family: Museo Sans Cyrl Light;
+	font-style: normal;
+	font-weight: 80;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px){
+
+	.orderInstruction__item{
+		width: 50%;
+	}
+	.orderInstruction__title{
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.orderInstruction__itemTitle{
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.orderInstruction__itemText{
+		font-size: 14px;
+		line-height: 17px;
+	}
+}

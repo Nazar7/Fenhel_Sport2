@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Museo-Thin";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl.otf");
+    }
+
+        @font-face {
+    font-family: "Museo-Light";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+    }
+
+            @font-face {
+    font-family: "Museo-Regular";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Bold";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Black";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+    }
+
+    .gallery__container{
+		max-width: 1138px;
+		height: 100%;
+		margin: 0 auto;
+
+	}
+
+    .our__works{
+        width: 100%;
+        min-height: 403px;
+        padding-bottom: 10px;
+        margin-top: 50px;
+    
+    }
+    
+    .gallery__title{
+        font-family: Museo-Black;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+    .gallery__list{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    
+    
+    .gallery__item{
+        width: 367px; 
+        height: auto;
+        margin-bottom: 18px;
+         -moz-transition: all 0.5s ease-out;
+     -o-transition: all 0.5s ease-out;
+     -webkit-transition: all 0.5s ease-out;
+    }
+    
+    @media (min-width: 320px) and (max-width: 767px) {  
+        .gallery__list{
+            width: 40%;
+            margin: 0 auto;
+            padding: 0px 60px;
+            
+        }
+    
+        .gallery__title{
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .gallery__item{
+                width: 133px; 
+                height: auto;
+                margin: 5px 15px;
+                border: none;
+               
+        }
+        .our__works{
+            display: block;
+            text-align: center;	
+        }
+    }
+    
+    
+    
+    .gallery__item:hover{
+     -webkit-transform: scale(1.05);
+     -moz-transform: scale(1.05);
+     -o-transform: scale(1.05);
+    }
+
+    .btn{
+        background-color: #fff;
+        border: none;
+        &:hover{
+            background-color: #fff;
+            border: none;
+        }
+    }
+
+

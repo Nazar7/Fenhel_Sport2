@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Museo-Thin";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl.otf");
+    }
+
+        @font-face {
+    font-family: "Museo-Light";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+    }
+
+            @font-face {
+    font-family: "Museo-Regular";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Bold";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Black";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+    }
+
+.info__container{
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.info__title{
+    font-family: Museo-Black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: left;
+}
+
+p{
+    font-family: Museo-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-align: left;
+}
+
+
+li{
+    display: block;
+    width: 100%;
+    font-family: Museo-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-align: left;
+}
+
+.info__text{
+    font-family: Museo-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-align: left;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+
+    .info__title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .info__text{
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

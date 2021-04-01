@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Museo-Thin";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl.otf");
+    }
+
+        @font-face {
+    font-family: "Museo-Light";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+    }
+
+            @font-face {
+    font-family: "Museo-Regular";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Bold";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Black";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+    }
+
+    .container{
+		max-width: 1138px;
+		height: 100%;
+		margin: 0 auto;
+
+	}
+
+    .del__pay__container{
+        max-width: 1140px;
+        height: 100%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .del__pay__rules{
+        margin: 65px 0px;
+    }
+
+.del__pay__title{
+    font-family: Museo-Black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.del__pay__text{
+    font-family: Museo-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+
+ul{
+    list-style: none;
+}
+
+li span{
+    font-family: Museo-Light;
+    margin-right: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .del__pay__title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    
+    .del__pay__text{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .del__pay__container{
+        margin-left: 20px;
+    }
+}

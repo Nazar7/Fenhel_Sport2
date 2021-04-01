@@ -1,0 +1,67 @@
+
+
+@font-face {
+  font-family: "Museo-Thin";
+  src: url("../fonts/museosanscyrl/MuseoSansCyrl.otf");
+  }
+
+      @font-face {
+  font-family: "Museo-Light";
+  src: url("../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+  }
+
+          @font-face {
+  font-family: "Museo-Regular";
+  src: url("../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+  }
+
+              @font-face {
+  font-family: "Museo-Bold";
+  src: url("../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+  }
+
+              @font-face {
+  font-family: "Museo-Black";
+  src: url("../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+  }
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content{
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.modal__submit{
+  border-radius: 10px;
+}
+
+.modal__submit__body{
+  height: 380px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.smile{
+  width: 156px;
+  max-height: 156px;
+  display: block;
+  margin: 0 auto;
+}
+
+.modal__submit__text{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-family: Museo-Regular;
+  font-size: 18px;
+}
+
+

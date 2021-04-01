@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Museo-Thin";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl.otf");
+    }
+
+        @font-face {
+    font-family: "Museo-Light";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+    }
+
+            @font-face {
+    font-family: "Museo-Regular";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Bold";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Black";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+    }
+
+
+    .contacts{
+        margin: 65px 0px;
+    }
+
+    .contacts__container{
+        max-width: 1140px;
+        height: 100%;
+        margin: 0 auto;
+
+    }
+
+    .contacts__title{
+        font-family: Museo-Black;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .contacts__block{
+        width: 100%;
+        min-height: 100%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contacts__address{
+        width: 25%;
+        height: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    .contacts__address p{
+        width: 100%;
+        text-align: center;
+        font-family: Museo-Light;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        text-align: center;
+
+        margin-bottom: 0px;
+    }
+
+.contact__logo{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px; 
+    }
+
+    .map{
+        width: 1140px;
+        height: 549px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    @media (min-width: 320px) and (max-width: 767px) { 
+        .contacts__block{
+            width: 100%;
+            min-height: 100%;
+
+        }
+        .contacts__title{
+            font-size: 22px;
+            line-height: 26px;
+        }
+        .contact__logo p{
+            font-size: 14px;
+            line-height: 17px;
+            }
+            .contacts__address{
+                width: 35%;
+            }
+            .contacts__address p{
+                font-size: 14px;
+                line-height: 17px;
+            }
+            .contact__logo{
+                display: inline-flex;
+                margin:0px;
+                }
+
+    }

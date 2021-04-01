@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Museo-Thin";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl.otf");
+    }
+
+        @font-face {
+    font-family: "Museo-Light";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+    }
+
+            @font-face {
+    font-family: "Museo-Regular";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Bold";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Black";
+    src: url("../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+    }
+
+
+
+.footer{
+    margin: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 	100%;
+    min-height: 338px;
+    background-color: #834E98;
+    background-image: url('./img_footer/footer_vector.png');
+    background-repeat: no-repeat;
+}
+
+.footer__container{
+    width: 1140px;
+    min-height: 338px;
+    margin: 0 auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__logo{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+
+.footer__social{
+    display: inline-flex;
+    flex-wrap: wrap;
+    min-width: 23%;
+    justify-content: center;
+    }
+
+    .footer__social img{
+        margin: 0px 20px;
+    }
+    
+    .footer__social a{
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+    .footer__address{
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 26%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .footer__address__street,
+    .footer__address__mail{
+        display: inline-flex;
+        min-width: 260px;
+        
+    }
+
+    .footer__text{
+        width: 100%;
+        display: inline-flex;
+    font-family: Museo-Thin;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer__text a{
+    color: #FFFFFF;
+    text-decoration: none;
+    &:hover {
+        font-family: Museo-Bold;
+    }
+}
+
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        .footer__logo{
+            width: 100%;
+        }
+        .footer__address{
+            width: 100%;
+        }
+        .footer__address__street,
+        .footer__address__mail{
+            width: 100%;
+            display: block;
+
+        }
+        .footer__text{
+            width: 40%;
+            display: inline-flex;
+            justify-content: center;
+        }
+        img{
+            margin: 0px;
+        }
+    
+    }
+    

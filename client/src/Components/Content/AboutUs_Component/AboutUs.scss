@@ -1,0 +1,163 @@
+@font-face {
+	font-family: "Museo Sans Cyrl Thin";
+	src: url("../../fonts/museosanscyrl/MuseoSansCyrl.otf");
+	}
+
+		@font-face {
+	font-family: "Museo Sans Cyrl Light";
+	src: url("../../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+	}
+
+			@font-face {
+	font-family: "Museo Sans Cyrl Regular";
+	src: url("../../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+	}
+
+				@font-face {
+	font-family: "Museo Sans Cyrl Bold";
+	src: url("../../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+	}
+
+				@font-face {
+	font-family: "Museo Sans Cyrl Black";
+	src: url("../../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+    }
+
+
+.description__container{
+    max-width: 1138px;
+    min-height: 100%;
+    margin: 0 auto;
+    
+}
+
+
+.description{
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.description__abotus{
+    display: inline-flex;
+    margin-top: 50px;
+}
+
+.description__text,
+.description__text1{
+    width: 100%;
+    text-align: left;
+}
+.description__text2{
+    width: 100%;
+}
+
+.description__title,
+.forclient__title{
+    font-family: Museo Sans Cyrl Black;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 0;
+}
+
+.description__products{
+    font-family: Museo Sans Cyrl Light;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 9px;
+    width: 100%;
+    text-align: left;
+   
+}
+
+.description__photo{
+    min-width: 50%;
+    display: inline-flex;
+    align-items: flex-end;
+    float: right;
+}
+
+.description__img {
+    width: 100%;
+    height: auto;
+  }
+
+
+.description__clothes{
+    display: flex;
+}
+
+.clothes__lists{
+    width: 100%;
+}
+
+.clothes__items{
+    list-style: none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) { 
+    .description__text{
+        width: 100%;
+        
+    }
+    .description__text1{
+        width: 450px;
+
+    }
+    .description__text2{
+        display: inline-block;
+        width:200px;
+        
+    }
+    .clothes__lists{
+        margin: 0px;
+        padding-left: 10px;
+    }
+    .description__clothes{
+        display: block;
+        margin-bottom: 20px;
+}
+    .description__products{
+        padding-left: 20px;
+}
+
+.description__img {
+    width: 75%;
+    height: auto;
+    margin-bottom: -20px;
+  }
+ .description__aboutus{
+      position: relative;
+
+  }
+ .description__title{
+      padding-left: 20px;
+
+  }
+
+  .description__photo{
+    position: relative;
+    top: 460px;
+    right: 230px;
+    height: 220px;
+    width: 100%;
+  }
+
+  .container{
+    padding: 0px 20px;
+    height: 100%;
+  }
+}
+
+.clothes__items:before{
+    content: "\2013";
+    margin-right: 7px;
+} 

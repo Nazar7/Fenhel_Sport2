@@ -1,0 +1,81 @@
+
+	@font-face {
+        font-family: "Museo Sans Cyrl Thin";
+        src: url("../../fonts/museosanscyrl/MuseoSansCyrl.otf");
+        }
+    
+            @font-face {
+        font-family: "Museo Sans Cyrl Light";
+        src: url("../../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+        }
+    
+                @font-face {
+        font-family: "Museo Sans Cyrl Regular";
+        src: url("../../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+        }
+    
+                    @font-face {
+        font-family: "Museo Sans Cyrl Bold";
+        src: url("../../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+        }
+    
+                    @font-face {
+        font-family: "Museo Sans Cyrl Black";
+        src: url("../../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+        }
+
+.container{
+    max-width: 1138px;
+    height: 100%;
+	margin: 0 auto;
+	// position: relative;
+
+}
+
+.discountBlock{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 	100%;
+	min-height: 250px;
+}
+
+
+.discountBlock__text{
+	width: 60%;
+	font-family: Museo Sans Cyrl Black;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 43px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) { 
+	.discountBlock{
+		width: 100%;
+		min-height: 130px;
+		display: inline-flex;
+		justify-content: center;
+		
+	}
+	.discountBlock__text{
+		width: 75%;
+		font-size: 18px;
+		line-height: 22px;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.button{
+		width: 183px;
+		height: 42px;
+		font-size: 14px;
+		line-height: 17px;
+		margin: 0 auto;
+	}
+}

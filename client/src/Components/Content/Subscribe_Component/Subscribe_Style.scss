@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Museo-Thin";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl.otf");
+    }
+
+        @font-face {
+    font-family: "Museo-Light";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+    }
+
+            @font-face {
+    font-family: "Museo-Regular";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Bold";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+    }
+
+                @font-face {
+    font-family: "Museo-Black";
+    src: url("../../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+    }
+
+ 
+
+    .subscribe{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 	100%;
+        min-height: 200px;
+        background-color: #834E98;
+            
+    }
+    .container{
+		max-width: 1138px;
+		height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+	}
+
+    .subscribe__text{
+            width: 682px;
+    }
+    
+    
+    .subscribe__title{
+        font-family: Museo-Black;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 0;
+    }
+    
+    .subscribe__discount{
+    font-family: Museo-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    
+    
+    
+    
+    .subscribe__instagram{
+            width: 152px;
+            align-items: center;
+            text-align: center;
+    }
+    
+    
+    .subscribe__button{
+        width: 261px;
+        height: 72px;
+        background: #FFFFFF;
+    border-radius: 20px;
+    color: #834E98;
+    font-family: Museo-Light;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    }
+    
+    .subscribe__button:hover{
+        background: #4F2162;
+        color: white;
+    }
+
+    #myMap{
+        max-width: 100%;
+ 
+    }
+    
+    @media (min-width: 320px) and (max-width: 767px) { 
+        .subscribe__text{
+            padding-left: 20px;
+        }
+        .subscribe__title{
+            font-size: 24px;
+            line-height: 29px;
+    }
+    .subscribe__discount{
+        font-size: 14px;
+    line-height: 17px;
+    }
+    .subscribe__instagram{
+        width: 53px;
+    }
+    .subscribe__button{
+        width: 192px;
+        height: 53px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    #myMap{
+        width: 90%;
+    }
+    }

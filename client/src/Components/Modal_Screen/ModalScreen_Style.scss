@@ -1,0 +1,357 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    //CSS
+    
+  }
+  
+  
+  
+  @font-face {
+      font-family: "Museo-Thin";
+      src: url("../fonts/museosanscyrl/MuseoSansCyrl.otf");
+      }
+  
+          @font-face {
+      font-family: "Museo-Light";
+      src: url("../fonts/museosanscyrl/MuseoSansCyrl_0.otf");
+      }
+  
+              @font-face {
+      font-family: "Museo-Regular";
+      src: url("../fonts/museosanscyrl/MuseoSansCyrl_1.otf");
+      }
+  
+                  @font-face {
+      font-family: "Museo-Bold";
+      src: url("../fonts/museosanscyrl/MuseoSansCyrl_2.otf");
+      }
+  
+                  @font-face {
+      font-family: "Museo-Black";
+      src: url("../fonts/museosanscyrl/MuseoSansCyrl_3.otf");
+      }
+  
+  
+  
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  
+  .modal__background{
+    background-color: rgba(0, 0, 0, 0.68);
+  }
+
+  .popap__title{
+      font-family: Museo-Black;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 43px;
+      text-transform: uppercase;
+      color: #000000;
+      text-align: center;
+        padding-top: 30px;
+  }
+  
+  
+  .img__size__block{
+      max-width: 1140px;
+     min-height: 160px; 
+     display: inline-flex;
+     margin: 30px 0px 0px 30px;
+  }
+  
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .img__size__block {
+      margin: 0;
+     
+  
+    }
+    .man__tshirt__col{
+      margin-left: 0px;
+    }
+  }
+  
+  
+  .man__tshirt__col{
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: absolute;
+      left: 270px;
+      top: 40px;
+     
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .man__tshirt__col{
+             margin: 0px;
+             top: 20px;
+             left: 130px;
+            
+  }
+    }
+  
+  .size__type{
+      width: 40%;
+    height: 65%;
+    margin-top: 30px;
+      display: inline-flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .size__type {
+      height: 65%;
+      align-content:space-around;
+          width: 60%;
+         
+    }
+  }
+  
+  .size__type__number{
+  font-family: Museo-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+  padding: 0;
+  margin: 7px 7px;
+  }
+  
+  .img__tshirt{
+      z-index: 1;
+  }
+
+  .size__type_title{
+      width: 50%;
+  }
+
+  .size__type__title{
+      width: 400px;
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    .img__tshirt {
+                      width: 101px;
+                      height: 110px;
+                      margin-left: 20px;
+                   
+    }
+}
+  
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .size__type__title {
+      width: 200px;
+      height: 150px;
+      margin-left: 0px;
+    }
+  
+  
+    .size__type__number{
+  font-size: 9px;
+  line-height: 23px;
+  width: 23px;
+  height: 23px;
+  margin: 0px 4px;
+  
+    }
+  }
+  
+  
+  .man__tshirt{
+      width: 70%;
+      height: 39px;
+      background: #834E98;
+      border-radius: 19.5px;
+      text-align: center;
+      padding-left: 90px;
+      font-family: Museo-Regular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 70%x;
+      line-height: 39px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      position: absolute;
+      right: 50px;
+      top: 10px;
+  }
+  
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .man__tshirt {
+              padding-left:50px;
+              width: 288px;
+              height: 26px;
+              font-size: 12px;
+              line-height: 26px;
+              left: 20px;
+    }
+  }
+  
+  .close__btn{
+    position: absolute;
+    right: -5px;
+    top: -50px;
+    font-size: 30px;
+    margin: 10px 10px 0px 0px;
+    color: white;
+    background-color:none;
+    cursor: pointer;
+
+  }
+
+
+  
+  .size__chart__block{
+      max-width: 423px;
+      min-height: 232px;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      padding: 20px 30px;
+     display: inline-flex;
+  
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    .size__chart__block {
+        width: 280px;
+
+    }
+  }
+  
+  
+  .size__chart{
+      display: inline-flex;
+      justify-content: center;
+      align-items: flex-end;
+  }
+  
+  
+  .col__size{
+      width: 25%;
+      font-family: Museo-Regular;
+      font-style: normal;
+      text-transform: uppercase;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .col__size {
+        font-size: 14px;
+        line-height: 17px;
+    }
+  }
+
+//   .modal__size{
+//       width: 100%;
+//       height: 100%;
+//       background-color: #fff;
+//       margin-top: 100px;
+//     padding-bottom: 20px;
+//   }
+
+  .man__tshirt__row{
+      height: 100%;
+    margin-bottom:  30px;
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    .modal-content,
+    .modal-dialog{
+      min-width: 320px;
+        min-height: 890px;
+        margin:  0 auto;
+        margin-top: 20px;
+    }
+  }
+
+  @media (min-width: 767px) and (max-width: 991px) {
+    .modal-content,
+    .modal-dialog{
+      min-width: 620px;
+        min-height: 890px;
+        margin:  0 auto;
+        margin-top: 20px;
+    }
+  }
+
+
+
+  
